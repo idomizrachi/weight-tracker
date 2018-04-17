@@ -1,0 +1,6 @@
+framework module Pods_weight {
+  umbrella header "Pods-weight-umbrella.h"
+
+  export *
+  module * { export * }
+}

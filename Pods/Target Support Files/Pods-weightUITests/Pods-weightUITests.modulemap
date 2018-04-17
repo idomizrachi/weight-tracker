@@ -1,0 +1,6 @@
+framework module Pods_weightUITests {
+  umbrella header "Pods-weightUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
