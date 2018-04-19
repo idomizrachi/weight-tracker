@@ -13,6 +13,8 @@
 		622A372620851A320090D2FA /* WeightDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622A372520851A320090D2FA /* WeightDisplay.swift */; };
 		627BB15F2086681E008CFDFB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BB15E2086681E008CFDFB /* Button.swift */; };
 		6288B28A2086926700CE1E36 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6288B2892086926700CE1E36 /* Theme.swift */; };
+		62B0DB382087497E00EE887C /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B0DB372087497E00EE887C /* NotificationManager.swift */; };
+		62B0DB3A20874DF500EE887C /* Silent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62B0DB3920874DF500EE887C /* Silent.wav */; };
 		62F77EE62081ED610058F0E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F77EE52081ED610058F0E0 /* AppDelegate.swift */; };
 		62F77EE82081ED610058F0E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F77EE72081ED610058F0E0 /* ViewController.swift */; };
 		62F77EEB2081ED610058F0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F77EE92081ED610058F0E0 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		622A372520851A320090D2FA /* WeightDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDisplay.swift; sourceTree = "<group>"; };
 		627BB15E2086681E008CFDFB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		6288B2892086926700CE1E36 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		62B0DB372087497E00EE887C /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		62B0DB3920874DF500EE887C /* Silent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Silent.wav; sourceTree = "<group>"; };
 		62F77EE22081ED610058F0E0 /* Weight Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F77EE52081ED610058F0E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62F77EE72081ED610058F0E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +162,8 @@
 				622A3723208385770090D2FA /* WeightManager.swift */,
 				622A372520851A320090D2FA /* WeightDisplay.swift */,
 				6288B2892086926700CE1E36 /* Theme.swift */,
+				62B0DB372087497E00EE887C /* NotificationManager.swift */,
+				62B0DB3920874DF500EE887C /* Silent.wav */,
 			);
 			path = weight;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F77EF02081ED630058F0E0 /* LaunchScreen.storyboard in Resources */,
+				62B0DB3A20874DF500EE887C /* Silent.wav in Resources */,
 				62F77EED2081ED630058F0E0 /* Assets.xcassets in Resources */,
 				62F77EEB2081ED610058F0E0 /* Main.storyboard in Resources */,
 			);
@@ -410,6 +417,7 @@
 				622A372620851A320090D2FA /* WeightDisplay.swift in Sources */,
 				622A3724208385770090D2FA /* WeightManager.swift in Sources */,
 				6288B28A2086926700CE1E36 /* Theme.swift in Sources */,
+				62B0DB382087497E00EE887C /* NotificationManager.swift in Sources */,
 				62F77EE82081ED610058F0E0 /* ViewController.swift in Sources */,
 				62F77EE62081ED610058F0E0 /* AppDelegate.swift in Sources */,
 			);
