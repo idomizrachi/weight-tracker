@@ -33,7 +33,7 @@ class Theme {
         return UIFont.systemFont(ofSize: 60, weight: UIFont.Weight.bold)
     }
     
-    public static func statusFont() -> UIFont {  
+    public static func statusFont() -> UIFont {
         return UIFont.systemFont(ofSize: 26)
     }
 }
