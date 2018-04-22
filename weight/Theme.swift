@@ -36,4 +36,8 @@ class Theme {
     public static func statusFont() -> UIFont {
         return UIFont.systemFont(ofSize: 26)
     }
+    
+    public static func cornerRadius() -> CGFloat {
+        return 5.0
+    }
 }
